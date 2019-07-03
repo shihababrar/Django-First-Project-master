@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+
+{% block content %}
+
+    {% for c in data %}
+    <h1> Title: {{ c.title }} </h1>
+    <p> Slug: {{ c.slug}}</p>
+    {% endfor %}
+
+{% endblock %}
+
